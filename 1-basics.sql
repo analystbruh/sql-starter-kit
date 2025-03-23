@@ -150,6 +150,3 @@ select customer_id, max(age)
 from customers
 group by customer_id
 limit 3;
-
-/* distinct */
-

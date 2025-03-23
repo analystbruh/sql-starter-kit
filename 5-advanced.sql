@@ -18,7 +18,11 @@ database managment
 create, drop, alter, truncate, delete, update, insert
 "if exisis"
 primary keys
-fore
+foreign keys
+oltp vs olap
+partitioning
  */
 
  /* case when */
+
+ /* table forms, normalized vs denormalized, ACID compliance */
