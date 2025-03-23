@@ -31,10 +31,10 @@ from customers;
 /* concatenation */
 
 select first_name || last_name name
-from customers
+from customers;
 
 select first_name || ' ' || last_name
-from customers
+from customers;
 
 /* sort */
 select first_name,
@@ -45,13 +45,13 @@ order by first_name;
 
 select first_name,
     age,
-    county
+    country
 from customers
 order by first_name desc;
 
 select first_name,
     age,
-    county
+    country
 from customers
 order by age;
 
@@ -145,8 +145,3 @@ order by age desc;
 select *
 from customers
 limit 1;
-
-select customer_id, max(age)
-from customers
-group by customer_id
-limit 3;
